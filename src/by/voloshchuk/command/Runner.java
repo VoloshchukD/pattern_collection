@@ -8,7 +8,6 @@ import by.voloshchuk.command.model.Waiter;
 public class Runner {
     public static void main(String[] args) {
 
-
         Cleaner cleaner = new Cleaner();
         CleaningCommand cookCleaningCommand = new CleaningCommand(cleaner, Cook.workplace);
         Cook cook = new Cook(cookCleaningCommand);
