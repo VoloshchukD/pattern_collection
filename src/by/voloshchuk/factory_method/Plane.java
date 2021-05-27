@@ -1,4 +1,4 @@
-package by.voloshchuk.factory.method;
+package by.voloshchuk.factory_method;
 
 public class Plane implements Transportable{
 
